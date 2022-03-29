@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_marginTop="12dp"
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/about_us" />
+
+    <TextView
+        android:id="@+id/text"
+        android:gravity="center"
+        android:hint="Language Translator is a nice application for you. There are main 10 languages that can translate using this translator. In addition to the main translating feature there are dictionary, note add and quiz features. The dictionary can use to find unknown word meanings in English. Note add can use to keep your ideas and notes in one place. It will improve your productivity. The quiz page can use to check your understanding of words."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="315dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="435dp"
+        android:src="@drawable/translate" />
+
+
+</FrameLayout>

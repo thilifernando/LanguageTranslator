@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ExtraFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra"
+        android:layout_marginTop="20dp"
+        android:textSize="23sp"
+        android:textColor="@color/yellow"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="4dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="113dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="100dp"
+        android:gravity=""
+        app:srcCompat="@drawable/text_to_speech" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="125dp"
+        android:text="Text to Speech"
+        android:textAlignment="center"/>
+
+</FrameLayout>
